@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tvapkstatus">false</item>
+    <item type="id" name="MainStatusLayout">false</item>
+    <item type="id" name="systemID">false</item>
+    <item type="id" name="modelID">false</item>
+    <item type="id" name="deviceID">false</item>
+    <item type="id" name="installframeworkButton">false</item>
+    <item type="id" name="uninstallframeworkButton">false</item>
+    <item type="id" name="frameworkStatusText">false</item>
+    <item type="id" name="xpstatus">false</item>
+</resources>

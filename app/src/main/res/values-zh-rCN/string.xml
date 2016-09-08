@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小米Note工具箱</string>
+    <string name="stools">小米Note工具箱</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="Tools">高级工具</string>
+    <string name="use_tools">使用以下功能需要Root权限</string>
+    <string name="miui_recovery">点击刷入官方 recovery</string>
+    <string name="tw_recovery">点击刷入Twrp recovery</string>
+    <string name="reboot">重启手机</string>
+    <string name="reboot_rec">重启到恢复模式</string>
+    <string name="install_xp">安装 Xp框架</string>
+    <string name="power">版权所有©️阳阳</string>
+    <string name="welcome_use_tools">欢迎使用小米Note工具箱</string>
+    <string name="install">安装</string>
+    <string name="uninstall">卸载</string>
+    <string name="apk_status">Xposed 管理器状态：</string>
+    <string name="installed">已安装</string>
+    <string name="uninstalled">未安装</string>
+    <string name="system">系统:</string>
+    <string name="device">设备:</string>
+    <string name="xposed_status">Xposed 框架状态：</string>
+    <string name="framework_text">该Xposed框架安装只适用于MIUI(6.0.1)，Xposed安装允许您直接通过ROOT权限安装补丁包，无需进入第三方recovery卡刷, 不支持64位, x86 集成MD版Xp管理器 </string>
+    <string name="done">完成</string>
+    <string name="waiting_for_root">未ROOT</string>
+</resources>

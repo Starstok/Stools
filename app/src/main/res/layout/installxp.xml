@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="75dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/MainStatusLayout">
+
+        <TextView
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/small_pad"
+            android:id="@id/tvapkstatus"
+            android:text="@string/apk_status"/>
+
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2.0">
+
+            <Button
+                android:background="#60fafafa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/large_pad"
+                android:text="@string/install"
+                android:layout_weight="1.0"
+                android:onClick="doInstallXpApp" />
+
+            <Button
+                android:background="#60fafafa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/large_pad"
+                android:text="@string/uninstall"
+                android:layout_weight="1.0"
+                android:onClick="doUnInstallXpApp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@id/xpstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/small_pad"
+        android:text="@string/xposed_status" />
+
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2.0">
+        <Button android:id="@id/installframeworkButton"
+            android:background="#60fafafa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_pad"
+            android:text="@string/install"
+            android:layout_weight="1.0"
+            android:onClick="doInstallXposed" />
+
+        <Button android:id="@id/uninstallframeworkButton"
+            android:background="#60fafafa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_pad"
+            android:text="@string/uninstall"
+            android:layout_weight="1.0"
+            android:onClick="doUnInstallXposed" />
+    </LinearLayout>
+
+    <!--<TextView
+        android:id="@id/frameworkStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/waiting_for_root" />!-->
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/framework_text" />
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/small_margin">
+
+        <GridLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_column="0"
+                android:text="@string/device"
+                android:layout_row="1" />
+            <TextView
+                android:layout_gravity="left"
+                android:layout_column="0"
+                android:text="@string/system"
+                android:layout_row="2" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:id="@id/systemID"
+                android:layout_marginLeft="8.0dip"
+                android:layout_column="1"
+                android:text=""
+                android:layout_row="2"
+                android:layout_columnSpan="4" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:id="@id/modelID"
+                android:layout_marginLeft="8.0dip"
+                android:layout_column="1"
+                android:text=""
+                android:layout_row="1" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_marginLeft="5.0dip"
+                android:layout_column="2"
+                android:text="("
+                android:layout_row="1" />
+
+            <TextView
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:id="@id/deviceID"
+                android:layout_column="3"
+                android:text=""
+                android:layout_row="1" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_column="4"
+                android:text=")"
+                android:layout_row="1" />
+
+            <Space
+                android:layout_gravity="fill_vertical"
+                android:layout_column="4"
+                android:layout_row="3" />
+
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

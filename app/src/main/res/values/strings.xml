@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Stools</string>
+    <string name="stools">Stools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="miui_recovery">Miui recovery</string>
+    <string name="tw_recovery">Twrp recovery</string>
+    <string name="reboot">reboot</string>
+    <string name="reboot_rec">reboot to recovery</string>
+    <string name="Tools">Tools</string>
+    <string name="install_xp">Install Xp</string>
+    <string name="power">Power by yangyang</string>
+    <string name="use_tools">Use the following tools to root</string>
+    <string name="welcome_use_tools">Welcome Use Tools</string>
+    <string name="install">Install</string>
+    <string name="uninstall">Unstall</string>
+    <string name="apk_status">Xposed Installer App Status</string>
+    <string name="installed">Installed</string>
+    <string name="uninstalled">Unstalled</string>
+    <string name="system">System</string>
+    <string name="device">Device</string>
+    <string name="done">Donw</string>
+    <string name="framework_text">Xposed framework on Android 5.0/5.1/6.0 need to flash a zip file.Xposed installer allow install xposed framework without enter recovery mode.</string>
+    <string name="xposed_status">Xposed Framework Status:</string>
+    <string name="waiting_for_root">No Root</string>
+</resources>
