@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="reboot">重启手机</string>
+    <string name="reboot_recovery">重启到卡刷模式</string>
+    <string name="flash_cwm">刷入 Cwm_recovery</string>
+    <string name="flash_tw">刷入 TW recovery</string>
+    <string name="Tools">工具</string>
+    <string name="tip_read_version">查阅发布亮点和用户更新说明</string>
+    <string name="check_update">正在检查更新...</string>
+    <string name="check_version">检测更新</string>
+    <string name="disk">百度网盘</string>
+    <string name="updateinfo">更新日志:</string>
+    <string name="current_version">当前版本:</string>
+    <string name="latest_version">最新版本:</string>
+    <string name="net_error">网络错误，请重试</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="isnew">当前已是最新版本，无需更新</string>
+    <string name="nisnew">检测到新版本</string>
+    <string name="infonull">暂无更新内容</string>
+    <string name="iplog">抓取 Log</string>
+</resources>

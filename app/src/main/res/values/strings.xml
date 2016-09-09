@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Stools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Tools">Tools</string>
+    <string name="reboot">reboot</string>
+    <string name="reboot_recovery">reboot recovery</string>
+    <string name="flash_cwm">flash Cwm_recovery</string>
+    <string name="flash_tw">flash TW recovery</string>
+    <string name="tip_read_version">Changelog</string>
+    <string name="check_update">Checking for Updates...</string>
+    <string name="check_version">Check for updates</string>
+    <string name="disk">Baidu SkyDrive</string>
+    <string name="updateinfo">Update information</string>
+    <string name="current_version">Current version:</string>
+    <string name="latest_version">Latest version:</string>
+    <string name="net_error">A network error occurred!</string>
+    <string name="isnew">This is the latest version!</string>
+    <string name="nisnew">Detect the latest version,please download the latest one in Baidu SkyDrive!</string>
+
+    <string name="confirm">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="infonull">No updates</string>
+    <string name="iplog">Input Log</string>
+</resources>
